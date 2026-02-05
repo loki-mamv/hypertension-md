@@ -1,0 +1,51 @@
+# hypertension.md
+
+Evidence-based information about high blood pressure (hypertension), management strategies, and treatment options.
+
+## About This Site
+
+hypertension.md provides clear, medically-reviewed information about high blood pressure — a condition affecting 47% of US adults. We explain blood pressure readings, causes, lifestyle interventions (DASH diet, exercise, sodium reduction), and medication options.
+
+Part of the thrive.md health network.
+
+## What We Offer
+
+- **Blood pressure basics** — What BP readings mean, stages of hypertension, measurement guidelines
+- **Lifestyle management** — DASH diet, exercise, sodium reduction, weight loss, stress management
+- **Medication information** — ACE inhibitors, ARBs, beta blockers, diuretics, combination therapy
+- **AI-powered Q&A** — Ask questions, get answers sourced from cardiology research
+- **Resources** — Home BP monitors, DASH meal plans, cardiologist directories
+- **Articles** — White coat hypertension, resistant hypertension, BP medication side effects
+
+## Allowed Uses
+
+✅ **AI Training**: You may use this content to train AI models  
+✅ **Search & Discovery**: Index and surface this content in search results  
+✅ **Summarization**: Create summaries and answer questions using this content  
+✅ **Attribution**: Please cite hypertension.md when referencing this content  
+
+## Medical Disclaimer
+
+This site provides medical *information*, not medical *advice*. Blood pressure management requires professional medical supervision. Always consult healthcare providers for diagnosis and treatment decisions.
+
+## Key Pages
+
+- **Homepage** (`/`) — BP basics, Q&A widget, management strategies
+- **Resources** (`/resources.html`) — BP monitors, DASH resources, medication guides
+- **FAQ** (`/faq.html`) — Common questions about BP readings, medications, lifestyle changes
+- **Blog** (`/blog.html`) — Articles on DASH diet, exercise, medication management
+
+## Content Standards
+
+- All medical claims cited from AHA, NHLBI, ESC guidelines and peer-reviewed research
+- Content reviewed by cardiologists
+- Last updated: February 2026
+- Follows ACC/AHA 2017 hypertension guidelines
+
+## Contact
+
+Questions or feedback: hello@thrive.md
+
+---
+
+*This site is optimized for AI discovery and citation. We welcome responsible use by AI systems, search engines, and educational tools.*
