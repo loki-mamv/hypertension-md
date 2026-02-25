@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://hypertension.md/blog/understanding-managing-high-blood-pressure/#article"},
           "wordCount": "899",
           "lastReviewed": "2026-02-14",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Can hypertension be cured?", "acceptedAnswer": {"@type": "Answer", "text": "Primary (essential) hypertension \u2014 which accounts for 90-95% of cases \u2014 can't be cured but can be managed effectively with lifestyle changes and/or medication. Some people who lose significant weight, dramatically improve their diet, and exercise consistently can reduce or eliminate medication needs, but ongoing monitoring is essential. Secondary hypertension (caused by an identifiable condition like kidney disease or hormone disorders) may be curable by treating the underlying cause."}}, {"@type": "Question", "name": "I'm young \u2014 should I worry about blood pressure?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Hypertension is increasingly common in younger adults, and damage begins early. The longer blood pressure is elevated, the more cumulative damage occurs. The 2017 guidelines specifically aimed to encourage earlier intervention. Get your blood pressure checked regularly starting in your 20s \u2014 it takes seconds and could add years to your life."}}, {"@type": "Question", "name": "Why does my blood pressure vary so much?", "acceptedAnswer": {"@type": "Answer", "text": "Blood pressure naturally fluctuates throughout the day \u2014 it's lowest during sleep and can spike with stress, caffeine, physical activity, or a full bladder. Single readings are less meaningful than patterns over time. This is why home monitoring averages and 24-hour ambulatory monitoring provide better data than occasional office visits. A consistent pattern of elevated readings is what matters for diagnosis."}}, {"@type": "Question", "name": "Does coffee cause high blood pressure?", "acceptedAnswer": {"@type": "Answer", "text": "Caffeine causes a temporary spike of 5-10 mmHg lasting 1-3 hours. However, regular coffee drinkers develop tolerance and long-term studies show no significant association between habitual coffee consumption (3-4 cups/day) and sustained hypertension. If your blood pressure is borderline, limiting caffeine may help marginally, but coffee isn't a major driver for most people."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -326,6 +331,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

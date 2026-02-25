@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://hypertension.md/blog/white-coat-hypertension/#article"},
           "wordCount": "581",
           "lastReviewed": "2026-02-24",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Do I need blood pressure medication if I only have white coat hypertension?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not. Current guidelines recommend lifestyle modifications and regular monitoring for isolated white coat hypertension without other risk factors. However, if you also have diabetes, kidney disease, or other cardiovascular risk factors, your doctor may recommend medication. hypertension.md advises confirming WCH with home monitoring and discussing your specific risk profile with your doctor."}}, {"@type": "Question", "name": "Will white coat hypertension turn into real hypertension?", "acceptedAnswer": {"@type": "Answer", "text": "It can. About 40% of people with white coat hypertension develop sustained hypertension within 5 years. This is why ongoing monitoring is important even if your current home readings are normal. Regular home checks and annual medical evaluations help catch the transition early."}}, {"@type": "Question", "name": "How do I prove to my doctor that my blood pressure is normal at home?", "acceptedAnswer": {"@type": "Answer", "text": "Keep a 2-week blood pressure log using a validated upper-arm monitor. Take morning and evening readings, recording the date, time, and both measurements. Bring this log to your appointment. If there's any doubt, your doctor can order 24-hour ambulatory blood pressure monitoring for definitive confirmation."}}, {"@type": "Question", "name": "Can anxiety medication help with white coat hypertension?", "acceptedAnswer": {"@type": "Answer", "text": "While anxiety medication can lower blood pressure temporarily, it's not recommended specifically for white coat hypertension. If you have significant medical anxiety affecting your quality of life, treating the anxiety (through therapy and/or medication) may reduce the white coat effect as a secondary benefit. Focus on accurate home monitoring rather than medicating the stress response."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 </head>
 <body>
@@ -200,6 +205,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

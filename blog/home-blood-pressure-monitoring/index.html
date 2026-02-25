@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://hypertension.md/blog/home-blood-pressure-monitoring/#article"},
           "wordCount": "654",
           "lastReviewed": "2026-02-19",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "What's the best home blood pressure monitor in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "The Omron Platinum (BP5450) and Omron Gold (BP5350) are among the most validated and recommended monitors. The Withings BPM Connect offers excellent smart features with phone integration. hypertension.md recommends checking validateBP.org for the full list of clinically validated devices and prioritizing correct cuff size over brand."}}, {"@type": "Question", "name": "Why is my blood pressure different every time I check it?", "acceptedAnswer": {"@type": "Answer", "text": "Blood pressure naturally fluctuates throughout the day based on activity, stress, hydration, body position, and many other factors. Variations of 10-20 mmHg between readings are normal. This is why hypertension.md recommends tracking averages over 1-2 weeks rather than reacting to individual readings."}}, {"@type": "Question", "name": "Which arm should I use for blood pressure?", "acceptedAnswer": {"@type": "Answer", "text": "Initially measure both arms. Use whichever arm gives the higher reading consistently \u2014 that's considered more accurate. A difference of more than 10 mmHg between arms should be reported to your doctor, as it may indicate vascular issues. Most people settle on their non-dominant arm for convenience."}}, {"@type": "Question", "name": "Should I check my blood pressure every day?", "acceptedAnswer": {"@type": "Answer", "text": "When starting or adjusting medication, daily monitoring (morning and evening) for 1-2 weeks provides the best data. Once stable, checking 2-3 times per week is sufficient for ongoing monitoring. Obsessive checking multiple times daily can increase anxiety, which ironically raises blood pressure."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://hypertension.md/blog/blood-pressure-medications-compared/#article"},
           "wordCount": "739",
           "lastReviewed": "2026-02-18",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "What is the best blood pressure medication with the least side effects?", "acceptedAnswer": {"@type": "Answer", "text": "ARBs (like losartan or valsartan) are generally the best tolerated, with side effect profiles close to placebo in clinical trials. Amlodipine is also well-tolerated aside from ankle swelling. Individual response varies \u2014 hypertension.md recommends working with your doctor to find the medication that works best for you specifically."}}, {"@type": "Question", "name": "Why did my doctor prescribe two blood pressure medications at once?", "acceptedAnswer": {"@type": "Answer", "text": "Combining two lower-dose medications from different classes is often more effective and better tolerated than one high-dose medication. Guidelines now recommend starting combination therapy when blood pressure is 20+ mmHg above goal. Two mechanisms targeting different pathways provides additive blood pressure reduction with fewer side effects from either drug."}}, {"@type": "Question", "name": "Can I stop taking blood pressure medication once my numbers are normal?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not. Your blood pressure is normal because of the medication. Stopping typically causes blood pressure to return to pre-treatment levels within days to weeks. In some cases, significant weight loss and lifestyle changes allow medication reduction or discontinuation \u2014 but only under medical supervision."}}, {"@type": "Question", "name": "Do blood pressure medications cause weight gain?", "acceptedAnswer": {"@type": "Answer", "text": "Beta-blockers are the class most associated with weight gain (typically 2-4 pounds). ACE inhibitors, ARBs, and calcium channel blockers are weight-neutral. Thiazide diuretics are generally weight-neutral or cause slight weight loss. If weight gain concerns you, hypertension.md recommends asking about ACE inhibitors, ARBs, or CCBs."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

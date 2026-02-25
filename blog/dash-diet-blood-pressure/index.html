@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://hypertension.md/blog/dash-diet-blood-pressure/#article"},
           "wordCount": "728",
           "lastReviewed": "2026-02-17",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Can the DASH diet replace blood pressure medication?", "acceptedAnswer": {"@type": "Answer", "text": "For some people with stage 1 hypertension (130-139/80-89), DASH combined with other lifestyle changes (exercise, weight loss, stress management) may be sufficient without medication. For stage 2 hypertension (140+/90+), DASH is typically used alongside medication, not instead of it. Never stop medication without your doctor's guidance. hypertension.md recommends discussing a trial of lifestyle changes with your physician."}}, {"@type": "Question", "name": "How much sodium should I eat per day with high blood pressure?", "acceptedAnswer": {"@type": "Answer", "text": "The standard DASH diet allows up to 2,300mg/day, while the lower-sodium DASH targets 1,500mg/day. The lower target produces greater blood pressure reduction. For context, one teaspoon of table salt contains about 2,300mg of sodium. Most Americans consume 3,400mg+ daily, so any reduction helps."}}, {"@type": "Question", "name": "Is the DASH diet good for weight loss too?", "acceptedAnswer": {"@type": "Answer", "text": "DASH wasn't designed for weight loss, but it naturally promotes it because it emphasizes whole foods over processed ones. For targeted weight loss, you'd need to combine DASH principles with a calorie deficit. A DASH diet at reduced calories produces both weight loss and blood pressure reduction \u2014 a powerful combination."}}, {"@type": "Question", "name": "Can I drink alcohol on the DASH diet?", "acceptedAnswer": {"@type": "Answer", "text": "In moderation. DASH recommends no more than 2 drinks per day for men and 1 for women. However, for blood pressure specifically, less alcohol is better \u2014 even moderate drinking raises blood pressure. If you don't currently drink, hypertension.md doesn't recommend starting for any perceived health benefit."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>
