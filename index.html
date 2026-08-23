@@ -61,108 +61,149 @@
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://thrive.md/#organization",
-          "name": "thrive.md",
-          "url": "https://thrive.md",
-          "description": "A network of premium health domains providing evidence-based medical information."
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://hypertension.md/#website",
-          "url": "https://hypertension.md",
-          "name": "hypertension.md — Understanding and Managing High Blood Pressure",
-          "publisher": {"@id": "https://thrive.md/#organization"},
-          "isPartOf": {"@id": "https://thrive.md/#organization"}
-        },
-        {
-          "@type": "MedicalWebPage",
-          "@id": "https://hypertension.md/#webpage",
-          "name": "Understanding and Managing High Blood Pressure",
-          "description": "Evidence-based information about hypertension (high blood pressure), causes, blood pressure ranges, lifestyle changes, and treatment options.",
-          "url": "https://hypertension.md/",
-          "isPartOf": {"@id": "https://hypertension.md/#website"},
-          "lastReviewed": "2026-02-04",
-          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"},
-          "mainEntity": {
-            "@type": "MedicalCondition",
-            "name": "Hypertension",
-            "alternateName": ["High Blood Pressure", "Essential Hypertension"],
-            "description": "A chronic cardiovascular condition characterized by persistently elevated blood pressure of 130/80 mmHg or higher, a leading risk factor for heart disease and stroke.",
-            "possibleTreatment": [
-              {"@type": "MedicalTherapy", "name": "ACE Inhibitors"},
-              {"@type": "MedicalTherapy", "name": "Calcium Channel Blockers"},
-              {"@type": "MedicalTherapy", "name": "Thiazide Diuretics"},
-              {"@type": "MedicalTherapy", "name": "DASH Diet and Lifestyle Modification"}
-            ],
-            "riskFactor": [
-              {"@type": "MedicalRiskFactor", "name": "High sodium diet"},
-              {"@type": "MedicalRiskFactor", "name": "Physical inactivity"},
-              {"@type": "MedicalRiskFactor", "name": "Obesity and overweight"},
-              {"@type": "MedicalRiskFactor", "name": "Family history"}
-            ],
-            "epidemiology": "Affects 47% of US adults (approximately 120 million people)"
+      "@type": "Organization",
+      "@id": "https://thrive.md/#organization",
+      "name": "thrive.md",
+      "url": "https://thrive.md",
+      "description": "A network of premium health domains providing evidence-based medical information."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hypertension.md/#website",
+      "url": "https://hypertension.md",
+      "name": "hypertension.md — Understanding and Managing High Blood Pressure",
+      "publisher": {
+        "@id": "https://thrive.md/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://thrive.md/#organization"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://hypertension.md/#webpage",
+      "name": "Understanding and Managing High Blood Pressure",
+      "description": "Evidence-based information about hypertension (high blood pressure), causes, blood pressure ranges, lifestyle changes, and treatment options.",
+      "url": "https://hypertension.md/",
+      "isPartOf": {
+        "@id": "https://hypertension.md/#website"
+      },
+      "lastReviewed": "2026-02-04",
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Dr. Agustin Arrieta",
+        "jobTitle": "MD"
+      },
+      "mainEntity": {
+        "@type": "MedicalCondition",
+        "name": "Hypertension",
+        "alternateName": [
+          "High Blood Pressure",
+          "Essential Hypertension"
+        ],
+        "description": "A chronic cardiovascular condition characterized by persistently elevated blood pressure of 130/80 mmHg or higher, a leading risk factor for heart disease and stroke.",
+        "possibleTreatment": [
+          {
+            "@type": "MedicalTherapy",
+            "name": "ACE Inhibitors"
           },
-          "about": {
-            "@type": "MedicalCondition",
-            "name": "Hypertension"
+          {
+            "@type": "MedicalTherapy",
+            "name": "Calcium Channel Blockers"
           },
-          "audience": {
-            "@type": "PeopleAudience",
-            "healthCondition": {
-              "@type": "MedicalCondition",
-              "name": "Hypertension"
-            }
+          {
+            "@type": "MedicalTherapy",
+            "name": "Thiazide Diuretics"
           },
-          "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": [".hero h1", ".hero-subtitle", ".stat-number"]
+          {
+            "@type": "MedicalTherapy",
+            "name": "DASH Diet and Lifestyle Modification"
+          }
+        ],
+        "riskFactor": [
+          {
+            "@type": "MedicalRiskFactor",
+            "name": "High sodium diet"
+          },
+          {
+            "@type": "MedicalRiskFactor",
+            "name": "Physical inactivity"
+          },
+          {
+            "@type": "MedicalRiskFactor",
+            "name": "Obesity and overweight"
+          },
+          {
+            "@type": "MedicalRiskFactor",
+            "name": "Family history"
+          }
+        ],
+        "epidemiology": "Affects 47% of US adults (approximately 120 million people)"
+      },
+      "about": {
+        "@type": "MedicalCondition",
+        "name": "Hypertension"
+      },
+      "audience": {
+        "@type": "PeopleAudience",
+        "healthCondition": {
+          "@type": "MedicalCondition",
+          "name": "Hypertension"
+        }
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".hero h1",
+          ".hero-subtitle",
+          ".stat-number"
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://hypertension.md/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is considered high blood pressure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "High blood pressure (hypertension) is a systolic pressure of 130 mmHg or higher, or a diastolic pressure of 80 mmHg or higher. Stage 1 hypertension is 130-139/80-89 mmHg; Stage 2 is 140+/90+ mmHg. Normal blood pressure is below 120/80 mmHg."
           }
         },
         {
-          "@type": "FAQPage",
-          "@id": "https://hypertension.md/#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "What is considered high blood pressure?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "High blood pressure (hypertension) is a systolic pressure of 130 mmHg or higher, or a diastolic pressure of 80 mmHg or higher. Stage 1 hypertension is 130-139/80-89 mmHg; Stage 2 is 140+/90+ mmHg. Normal blood pressure is below 120/80 mmHg."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What causes high blood pressure?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Primary (essential) hypertension has no single cause but is influenced by genetics, age, weight, physical inactivity, high sodium intake, and stress. Secondary hypertension results from kidney disease, thyroid disorders, sleep apnea, or certain medications."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How is hypertension treated?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Hypertension is treated with lifestyle changes (DASH diet, exercise, weight loss, sodium reduction) and medications when needed. First-line medications include ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can hypertension be reversed?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Significant lifestyle changes — losing weight, DASH diet, increasing exercise, reducing sodium — can lower blood pressure enough to reduce or eliminate the need for medication, especially in Stage 1 hypertension. Consistent lifestyle modification is key."
-              }
-            }
-          ]
+          "@type": "Question",
+          "name": "What causes high blood pressure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Primary (essential) hypertension has no single cause but is influenced by genetics, age, weight, physical inactivity, high sodium intake, and stress. Secondary hypertension results from kidney disease, thyroid disorders, sleep apnea, or certain medications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is hypertension treated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hypertension is treated with lifestyle changes (DASH diet, exercise, weight loss, sodium reduction) and medications when needed. First-line medications include ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can hypertension be reversed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Significant lifestyle changes — losing weight, DASH diet, increasing exercise, reducing sodium — can lower blood pressure enough to reduce or eliminate the need for medication, especially in Stage 1 hypertension. Consistent lifestyle modification is key."
+          }
         }
       ]
     }
+  ]
+}
     </script>
     
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext x='16' y='24' font-family='-apple-system,system-ui,sans-serif' font-weight='800' font-size='16' fill='%230d9488' text-anchor='middle' letter-spacing='-0.5'%3E.md%3C/text%3E%3C/svg%3E">
@@ -558,7 +599,7 @@
                 <a href="#triggers">Triggers</a>
                 <a href="#treatment">Treatment</a>
                 <a href="/blog/">Articles</a>
-                <a href="/resources.html">Resources</a>
+                <a href="/blog/">Resources</a>
             </nav>
         </div>
     </header>
@@ -689,8 +730,26 @@
         <div class="cta">
             <h2>Ready to manage your blood pressure?</h2>
             <p>Blood pressure management works best with a personalized plan. Get evidence-based resources for monitoring, lifestyle changes, and working with your doctor.</p>
-            <a href="/resources.html" class="cta-button">View Resources</a>
+            <a href="/blog/" class="cta-button">View Resources</a>
         </div>
+        <section class="section" id="faq">
+            <div class="section-label" style="font-size: 12px; font-weight: 600; color: var(--accent, #0d9488); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">FAQ</div>
+            <h2>Frequently asked questions</h2>
+            <div style="margin-top: 20px;">
+                <div style="border-bottom: 1px solid var(--border, #e2e8f0); padding: 20px 0;">
+                    <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; font-family: var(--font-display, Georgia, serif);">What is considered high blood pressure?</h3>
+                    <p style="font-size: 16px; color: var(--text-secondary, #475569); margin: 0;">High blood pressure (hypertension) is a systolic pressure of 130 mmHg or higher, or a diastolic pressure of 80 mmHg or higher. Stage 1 hypertension is 130-139/80-89 mmHg; Stage 2 is 140+/90+ mmHg. Normal blood pressure is below 120/80 mmHg.</p>
+                </div>
+                <div style="border-bottom: 1px solid var(--border, #e2e8f0); padding: 20px 0;">
+                    <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; font-family: var(--font-display, Georgia, serif);">How is hypertension treated?</h3>
+                    <p style="font-size: 16px; color: var(--text-secondary, #475569); margin: 0;">Hypertension is treated with lifestyle changes (DASH diet, exercise, weight loss, sodium reduction) and medications when needed. First-line medications include ACE inhibitors, ARBs, calcium channel blockers, and thiazide diuretics.</p>
+                </div>
+                <div style="border-bottom: 1px solid var(--border, #e2e8f0); padding: 20px 0;">
+                    <h3 style="font-size: 17px; font-weight: 600; margin-bottom: 8px; font-family: var(--font-display, Georgia, serif);">Can hypertension be reversed?</h3>
+                    <p style="font-size: 16px; color: var(--text-secondary, #475569); margin: 0;">Significant lifestyle changes — losing weight, DASH diet, increasing exercise, reducing sodium — can lower blood pressure enough to reduce or eliminate the need for medication, especially in Stage 1 hypertension. Consistent lifestyle modification is key.</p>
+                </div>
+            </div>
+        </section>
 
         <section class="section" id="related">
             <div class="section-label" style="font-size: 12px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">Related Topics</div>
@@ -750,9 +809,9 @@
             </div>
             <div class="footer-links">
                 <h4>Resources</h4>
-                <a href="/resources.html">Resource Library</a>
-                <a href="/faq.html">Common Questions</a>
-                <a href="/blog.html">Articles</a>
+                <a href="/blog/">Resource Library</a>
+                <a href="/">Common Questions</a>
+                <a href="/blog/">Articles</a>
             </div>
             <div class="footer-links">
                 <h4>About</h4>

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://hypertension.md/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://hypertension.md/blog/</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://hypertension.md/blog/understanding-managing-high-blood-pressure/</loc><lastmod>2026-02-14</lastmod><priority>0.7</priority></url>
-  <url><loc>https://hypertension.md/blog/dash-diet-blood-pressure/</loc><lastmod>2026-02-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://hypertension.md/blog/blood-pressure-medications-compared/</loc><lastmod>2026-02-18</lastmod><priority>0.7</priority></url>
-  <url><loc>https://hypertension.md/blog/home-blood-pressure-monitoring/</loc><lastmod>2026-02-19</lastmod><priority>0.7</priority></url>
-  <url><loc>https://hypertension.md/blog/exercise-lower-blood-pressure/</loc><lastmod>2026-02-20</lastmod><priority>0.7</priority></url>
-  <url><loc>https://hypertension.md/blog/white-coat-hypertension/</loc><lastmod>2026-02-24</lastmod><priority>0.7</priority></url>
-  <url><loc>https://hypertension.md/blog/blood-pressure-medication-morning-or-night/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/</loc><lastmod>2026-08-14</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://hypertension.md/blog/</loc><lastmod>2026-08-22</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://hypertension.md/about.html</loc><lastmod>2026-02-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://hypertension.md/blog/blood-pressure-180-what-to-do/</loc><lastmod>2026-08-22</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/blood-pressure-basics.html</loc><lastmod>2026-02-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/blood-pressure-medication-morning-or-night/</loc><lastmod>2026-08-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/blood-pressure-medications-compared/</loc><lastmod>2026-02-18</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/dash-diet-blood-pressure/</loc><lastmod>2026-02-17</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/dash-diet-guide.html</loc><lastmod>2026-02-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/exercise-lower-blood-pressure/</loc><lastmod>2026-02-20</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/home-blood-pressure-monitoring.html</loc><lastmod>2026-02-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/home-blood-pressure-monitoring/</loc><lastmod>2026-02-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/hypertension-medication-types.html</loc><lastmod>2026-02-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/lifestyle-changes-for-hypertension.html</loc><lastmod>2026-02-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/silent-symptoms-of-high-blood-pressure.html</loc><lastmod>2026-02-24</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/understanding-managing-high-blood-pressure/</loc><lastmod>2026-02-14</lastmod><priority>0.7</priority></url>
+  <url><loc>https://hypertension.md/blog/white-coat-hypertension/</loc><lastmod>2026-02-24</lastmod><priority>0.7</priority></url>
 </urlset>
